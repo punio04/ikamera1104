@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@media only screen and (max-width:768px) {
+  body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+  }
+
+  h2 {
+    margin: 0 0 .5em;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center
+  }
+
+  .main {
+    background-color: #f2f2f2
+  }
+
+  .article {
+    background-color: #fff;
+    border-left: none;
+    border-right: none;
+    font-size: 1.6em;
+    width: 100%
+  }
+
+  .article p {
+    line-height: 1.6
+  }
+
+  .section_inr,
+  .top_image_in {
+    width: 100%;
+    margin: 0 auto
+  }
+
+  .top_image {
+    background-image: none
+  }
+
+  .top_image_in img,
+  body {
+    width: 100%
+  }
+
+  .section_05,
+  .section_11 {
+    padding: 2em .6em
+  }
+
+  .section_02 {
+    padding: 2em 0 0
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 2em 0 2em
+  }
+
+  .evaluation_pc,
+  .fv_pc,
+  .solution_pc,
+  .worries_pc {
+    display: none !important
+  }
+
+  .evaluation_sp,
+  .fv_sp,
+  .solution_sp,
+  .worries_sp {
+    display: block !important
+  }
+
+  .sticky-inner {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    max-width: none
+  }
+}
+
+@media only screen and (max-width:550px) {
+  .sbtn-tel {
+    flex: 0 0 60px
+  }
+
+  .sticky-bar {
+    padding: 10px 8px calc(10px + env(safe-area-inset-bottom))
+  }
+
+  .sbtn,
+  .sticky-inner {
+    gap: 6px
+  }
+
+  .sbtn {
+    font-size: 12px;
+    padding: 17px 6px
+  }
+
+  .footer b {
+    font-size: 16px
+  }
+
+  .footer {
+    padding: 2em 1em 2em
+  }
+
+  .section_02,
+  .section_03 {
+    padding: 0
+  }
+
+  table.address {
+    margin-bottom: 0;
+    width: 100%
+  }
+}
+
+@media only screen and (max-width:400px) {
+  .sbtn {
+    gap: 6px;
+    font-size: 12px;
+    padding: 17px 6px
+  }
+
+  .sbtn-tel {
+    flex: 0 0 55px
+  }
+}
+
+@media only screen and (max-width:327px) {
+  .sp_only {
+    display: block
+  }
+
+  .sbtn {
+    gap: 6px;
+    font-size: 10.5px;
+    padding: 17px 6px
+  }
+
+  .sbtn-tel {
+    flex: 0 0 52px
+  }
+
+  .footer {
+    padding: 2em 1em 2em
+  }
+
+  h2 {
+    font-size: 1.6em
+  }
+}
